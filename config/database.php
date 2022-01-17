@@ -93,7 +93,7 @@ return [
 
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => env('DB_URI', 'mongodb+srv://username:password@<atlas-cluster-uri>/myappdb?retryWrites=true&w=majority'),
+            'dsn' => env('DB_URI', 'mongodb+srv://username:password@myPassword/myappdb?retryWrites=true&w=majority'),
             'database' => env('DB_DATABASE', 'forge'),
         ],
 
